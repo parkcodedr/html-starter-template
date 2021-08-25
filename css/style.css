@@ -1,0 +1,177 @@
+
+
+
+        #title {
+            border: 1px solid red;
+            padding: 30px;
+            text-transform: uppercase;
+        }
+
+        #bg-overlay{
+         margin-left: 90px;
+
+        }
+        a{
+          text-decoration: none;
+          color:orange;
+        }
+        
+        h1,h2,h3,h4,h5,h6{
+          color:blue;
+
+        }
+        
+        .heading{
+          background: gold;
+          color:white;
+        }
+ 
+  .media a {
+    padding: 10px;
+  }
+  .media a:hover{
+    color:red;
+    text-decoration: underline;
+  }
+  .media a:visited{
+    color:gray;
+    text-decoration: underline;
+  }
+  .media a:active{
+    color:green;
+    text-decoration: underline;
+  }
+
+
+  td{
+    text-align: center;
+    padding: 4px;
+  }
+
+  th{
+    background:blue;
+    color:white;
+    padding:4px;
+  }
+
+  table{
+    
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td{
+    vertical-align: bottom;
+  }
+
+  /* table,tr, td{
+    border: 1px solid black;
+  } */
+
+  tr{
+    border-bottom: 1px solid black;
+  }
+
+  .table-hover tr:hover{
+    background:goldenrod;
+  }
+
+  .striped tr:nth-child(even){
+    background:rgb(223, 224, 230);
+  }
+
+  .table-container{
+    overflow-x: auto;
+  }
+  .bottom-nav{
+    margin: 30px;
+    position: sticky;
+    top:0px;
+  }
+  .bottom-nav ul li{
+   
+    display:inline;
+    background:dodgerblue;
+    color:white;
+    padding:10px;
+    
+  }
+
+  .div1{
+    width: 500px;
+    border:1px solid red;
+    position: relative;
+    left:30px;
+    top:0px;
+  }
+  .div2{
+    max-width: 500px;
+    border:1px solid red;
+  }
+
+  /* img {
+    position: absolute;
+    top:70px;
+    z-index: -1;
+  } */
+  .content-wrapper{
+    border: 5px dotted gold;
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+    margin-bottom: 15px;
+  }
+  /* .content{
+    width: 600px;
+  } */
+
+  .content-divider{
+    background:dodgerblue;
+    color:white;
+    padding:20px;
+
+  }
+  .main,.left,.right{
+    border: 1px solid red;
+  }
+   .main{
+    width: 380px;
+    float: left;
+  }
+  .right{
+    width: 200px;
+    float:right;
+    
+  }
+  .left{
+    width: 200px;
+    float: left;
+  }
+  
+  .card{ 
+    border:1px solid green;
+    width: 600px;
+    height: 250px;
+    clear: both;
+  }
+  .image{
+    float:left;
+    margin-right: 8px;
+  }
+
+.p-content::first-letter{
+  color:red;
+  text-transform: uppercase;
+  
+}
+.p-content::before{
+  content:'---';
+}
+.p-content::after{
+  content:'---';
+  color:red;
+}
+
+
+
+
