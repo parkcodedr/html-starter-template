@@ -6,3 +6,31 @@
     margin:0px;
     padding:0px;
 }
+.navbar ul{
+    background-color:#333;
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+}
+
+.navbar li{
+list-style-type: none;
+ display:inline-block;
+ padding: 8px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding:12px 14px;
+    color:gold;
+}
+.navbar li:hover{
+    background:rgb(87, 87, 86);
+}
+/* .navbar li:hover a{
+    color:white;
+} */
+
+.active {
+    background:rgb(87, 87, 86);
+}
