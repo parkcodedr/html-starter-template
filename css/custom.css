@@ -35,5 +35,47 @@ list-style-type: none;
 .active {
     border-bottom: 2px solid gold ;
 }
+.column{
+    max-width: 50%;
+    float: left;
+    padding: 100px 30px;
+}
+
+.hero-title h1{
+    font-variant: small-caps;
+    font-size:38px;
+    text-align: center;
+    color:gold;
+}
+.hero-text{
+    font-size: 20px;
+    text-align: justify;
+}
+.hero-button{
+    margin:20px;
+    
+}
+.btn{
+    border:none;
+    padding:10px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.btn-primary{
+    background:gold;
+    color:white;
+}
+.btn-outline{
+    border: 1px solid gold;
+    color:gold;
+}
+
+.hero-image img{
+    max-height:400px;
+    max-width:600px;
+}
+.hero-image{
+    padding: 30px 30px;
+}
 
 
