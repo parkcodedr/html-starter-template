@@ -5,6 +5,7 @@
 *{
     margin:0px;
     padding:0px;
+    box-sizing: border-box;
 }
 .navbar ul{
     background-color:#333;
@@ -32,5 +33,7 @@ list-style-type: none;
 } */
 
 .active {
-    background:rgb(87, 87, 86);
+    border-bottom: 2px solid gold ;
 }
+
+
